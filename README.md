@@ -16,4 +16,14 @@ Then, set up a default region (in e.g. ~/.aws/config):
 [default]
 region=us-east-1
 
-Then you can make the changes needed in the stop_ec2.py file and run it to stop all the running instances in your AWS account.
+
+1. To stop running EC2 instances
+
+
+	i. Then you can make the changes needed in the stop_ec2.py file and run it to stop all the running instances in your AWS account.
+
+
+2. To find running EC2 instances in a VPC.
+
+
+	i. Add the VPC-ID which you need to the running_ec2.py file and execute the file to get the list of running instances in that particular VPC.
